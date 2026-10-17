@@ -9,9 +9,9 @@ class Solution {
             if(map.containsKey(x)){
                 return new int[]{map.get(x),i};
             }
-            else{
+           
                 map.put(nums[i],i);
-            }
+            
            
         }
         return new int[]{};
